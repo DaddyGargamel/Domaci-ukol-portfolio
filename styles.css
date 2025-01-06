@@ -116,3 +116,39 @@ footer{
 .copyright{
     text-align: right;
 }
+/*iPhone SE*/
+@media (max-width: 376px){
+    .medved{
+        width: 125px;
+        font-size: 4vw;
+    }
+    .text1{
+        width: 300px;
+        font-size: 4vw;
+    }
+    
+}
+/*iPad Mini*/
+@media (max-width: 769px){
+    .portfolio{
+        font-size: 4vw;
+    }
+    .jmeno{
+        font-size: 4vw;
+    }
+    .medved{
+        width: 250px;
+    }
+    .text1{
+        width: 500px;
+    }
+}
+/*Monitor*/
+@media (max-width: 1921px){
+    .portfolio{
+        font-size: 4vw;
+    }
+    .jmeno{
+        font-size: 4vw;
+    }
+}
