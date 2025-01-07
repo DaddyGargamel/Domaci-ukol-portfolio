@@ -117,38 +117,64 @@ footer{
     text-align: right;
 }
 /*iPhone SE*/
-@media (max-width: 376px){
+@media (max-width: 375px){
     .medved{
-        width: 125px;
-        font-size: 4vw;
+        width: 150px;
+        margin: 20px;
+    }
+    .custom-shape-divider-bottom-1733931102 svg {
+        height: 25px;
     }
     .text1{
-        width: 300px;
-        font-size: 4vw;
+        max-width: 325px;
+        font-size: 8px;
     }
-    
+    li{
+        font-size: 13px;
+    }
 }
 /*iPad Mini*/
-@media (max-width: 769px){
-    .portfolio{
-        font-size: 4vw;
-    }
-    .jmeno{
-        font-size: 4vw;
-    }
+@media (max-width:  768px){
     .medved{
-        width: 250px;
+        width: 40vw;
+    }
+    .zacatek{
+        width: 80vw;
+    }
+    .custom-shape-divider-bottom-1733931102 svg {
+        height: 50px;
     }
     .text1{
-        width: 500px;
+        width: 30rem;
+        font-size: 25px;
+    }
+    footer{
+        position: fixed;
+        width: 100%;
+    }
+    .copyright{
+        margin-right: 50px;
     }
 }
-/*Monitor*/
-@media (max-width: 1921px){
+/*Monitor 1920x1080*/
+@media (max-width: 1920px){
     .portfolio{
         font-size: 4vw;
     }
     .jmeno{
         font-size: 4vw;
+    }
+    footer{
+        width: 100%;
+        position: fixed;
+    }
+    .copyright{
+        margin-right: 60px;    
+    }
+    .text1{
+        font-size: 25px;
+    }
+    .omne{
+        font-size: 32px;
     }
 }
